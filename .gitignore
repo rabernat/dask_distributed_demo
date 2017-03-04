@@ -57,4 +57,7 @@ docs/_build/
 target/
 
 # notebook
-.ipynb_checkpoints/*
+*/.ipynb_checkpoints/*
+
+# dask stuff
+schedule_file
