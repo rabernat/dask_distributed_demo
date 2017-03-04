@@ -1,0 +1,20 @@
+name: dask_distributed
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - cython
+  - dask
+  - distributed
+  - h5py
+  - matplotlib
+  - netcdf4
+  - pytest
+  - numpy
+  - pandas
+  - seaborn
+  - scipy
+  - jupyter
+  - xarray
+  - pip:
+    - h5netcdf
