@@ -60,4 +60,7 @@ target/
 */.ipynb_checkpoints/*
 
 # dask stuff
-schedule_file
+.dask_scheduler/
+
+# slurm stuff
+slurm-*
