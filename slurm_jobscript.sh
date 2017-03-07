@@ -4,7 +4,7 @@
 #SBATCH --exclusive
 #SBATCH -N 1
 #SBATCH -J dask_cluster
-#SBATCH --time=4:00:00
+#SBATCH --time=24:00:00
 
 source activate dask_distributed
 
