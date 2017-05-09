@@ -1,4 +1,4 @@
-name: dask_distributed
+name: dask_distributed_test
 channels:
   - conda-forge
 dependencies:
