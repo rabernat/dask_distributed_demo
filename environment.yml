@@ -1,11 +1,8 @@
-name: dask_distributed_test
+name: dask_distributed
 channels:
   - conda-forge
 dependencies:
   - python=3.5
-  - cython
-  - dask
-  - distributed
   - h5py
   - matplotlib
   - netcdf4
@@ -15,6 +12,8 @@ dependencies:
   - seaborn
   - scipy
   - jupyter
+  - dask
   - xarray
   - pip:
     - h5netcdf
+    - git+https://github.com/dask/distributed.git
