@@ -31,7 +31,7 @@ and one for the jupyter notebook
 
     ssh -L 9999:node132:8888 haba
 
-Open tabs in your browser to http://localhost:9999 (notebook) and http://localhost:9999 (bokeh).
+Open tabs in your browser to http://localhost:9999 (notebook) and http://localhost:8787 (bokeh).
 To connect to the client, run the following commands from your notebook:
 
     import os
